@@ -8,7 +8,7 @@ h1, h2, h3 , h4, h5, h6 {
   position: flex;
   width: 100%;
   background: url("../images/transparency.png");
-  background-color: transparent !important;
+  background-color: black !important;
   background-size: cover;
   z-index: 10;
 }
@@ -28,13 +28,18 @@ h1, h2, h3 , h4, h5, h6 {
 position: absolute;
 bottom: 0;
 z-index: 1;
+color: white;
+}
+.card {
+  background-color: blue;
+  padding: 25px;
 }
 .sectionHeading {
    text-align: center;  
 }
 .jumbotron {
     background-image: url(../images/pexels-elvis-vasquez-421654.jpg) !important;
-    background-size: 200px 100px;
+    background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
     background-color: none;
